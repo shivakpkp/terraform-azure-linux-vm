@@ -14,7 +14,7 @@ terraform {
       name = "PlanDryRun" 
     } 
   } 
-}
+} 
 
 provider "azurerm" {
   features {}
