@@ -28,7 +28,7 @@ jobs:
             - name: Show Version
               run: tflint --version
               env:
-                GITHUB_TOKEN: ${{ github.token }}
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
             
             - name: Run TFLint
               run: tflint -f compact
