@@ -3,7 +3,7 @@ on:
     workflow_dispatch:
 
 env:
-    TF_CLOUD_ORGANIZATION: ' Azure-Linux-VM' # Replace with your Terraform Cloud organization name
+    TF_CLOUD_ORGANIZATION: 'Azure-Linux-VM' # Replace with your Terraform Cloud organization name
     TF_WORKSPACE: 'Development' # Replace with your Terraform Cloud workspace name
     TF_API_TOKEN: ${{ secrets.TF_API_TOKEN }} # Set this secret in your GitHub repository settings
     CONFIG_DIRECTORY: './' # Directory containing your Terraform configuration files
