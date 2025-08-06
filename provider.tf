@@ -10,9 +10,8 @@ terraform {
   cloud { 
     
     organization = "CloudQuickLab" 
-
     workspaces { 
-      name = "Development" 
+      name = "PlanDryRun" 
     } 
   } 
 }
